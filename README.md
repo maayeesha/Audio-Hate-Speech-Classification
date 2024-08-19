@@ -5,14 +5,14 @@ With the rise in online communication within the Bengali community, hate speech 
 The current audio dataset is imbalanced, but it will be updated in the future to achieve more accurate results.
 
 Steps that were followed here:
-Audio Hate Speech Classification:
+### Audio Hate Speech Classification:
 
 1. Extraction of audio files from YouTube using pytube
 2. Segmentation of the audio files
 3. Extracting audio features such as mfcc,spectral rolloff, chroma, spectral bandwidth,spectral centroid, spectral contrast
 4. Using these features for binary classification of audio using KNN,SVM,RF,LR,CNN
 
-Transcribed Hate Speech Classification:
+### Transcribed Hate Speech Classification:
 
 1. Preprocessing bengali data
 2. Showing the GRU model to classify the hate speech into multilabel such as Religious hate speech, Political Hate speech, Personal Hate Speech and Neutral Speech
