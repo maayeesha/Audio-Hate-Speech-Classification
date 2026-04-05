@@ -14,8 +14,7 @@
 ---
 
 ## 📋 Overview
-
-This project addresses the critical need for **Bengali audio hate speech detection** by developing a comprehensive system that leverages both audio signal processing and natural language processing techniques. With the rise in online communication within the Bengali community, hate speech has become increasingly prevalent, making automated detection tools essential for content moderation and online safety.
+This project was inspired by the widespread rise of hate speech in the Bengali community following a communal conflict in Bangladesh in 2021. It addresses the critical need for Bengali audio hate speech detection by developing a comprehensive system that leverages both audio signal processing and natural language processing techniques. With the increase in online communication within the Bengali community, hate speech has become more prevalent, making automated detection tools essential for content moderation and online safety.
 
 The project implements multiple machine learning and deep learning approaches:
 - **Audio-based classification** using MFCC and spectral features with traditional ML algorithms
