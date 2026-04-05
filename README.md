@@ -1,22 +1,44 @@
-# Audio-Hate-Speech-Classification
+# 🎙️ Audio Hate Speech Classification for Bengali
 
-With the rise in online communication within the Bengali community, hate speech has become increasingly prevalent. This project addresses the lack of Bengali audio resources by creating a hate speech dataset from platforms like YouTube, focusing on binary classification. We analyze key audio features using various models, including SVM, KNN, LR, RF, and CNN, highlighting the need for robust datasets in hate speech detection across different modalities.
+<div align="center">
 
-The current audio dataset is imbalanced, but it will be updated in the future to achieve more accurate results.
+**A Deep Learning System for Detecting and Classifying Hate Speech in Bengali Audio**
 
-Steps that were followed here:
-### Audio Hate Speech Classification:
+![License](https://img.shields.io/badge/License-Rights%20Reserved-red.svg)
+![Language](https://img.shields.io/badge/Language-Python%20%7C%20Jupyter-blue)
+![Status](https://img.shields.io/badge/Status-Active%20Development-green)
+![Topics](https://img.shields.io/badge/Topics-Audio%20%7C%20NLP%20%7C%20ML%20%7C%20DL-orange)
 
-1. Extraction of audio files from YouTube using pytube
-2. Segmentation of the audio files
-3. Extracting audio features such as mfcc,spectral rolloff, chroma, spectral bandwidth,spectral centroid, spectral contrast
-4. Using these features for binary classification of audio using KNN,SVM,RF,LR,CNN
+</div>
 
-### Transcribed Hate Speech Classification:
+---
 
-1. Preprocessing bengali data
-2. Showing the GRU model to classify the hate speech into multilabel such as Religious hate speech, Political Hate speech, Personal Hate Speech and Neutral Speech
+## 📋 Overview
 
-The repository is in the process of being updated to enhance the performance. And the paper of this project is currently under review process.
+This project addresses the critical need for **Bengali audio hate speech detection** by developing a comprehensive system that leverages both audio signal processing and natural language processing techniques. With the rise in online communication within the Bengali community, hate speech has become increasingly prevalent, making automated detection tools essential for content moderation and online safety.
 
-All rights reserved by Maayeesha Farzana.
+The project implements multiple machine learning and deep learning approaches:
+- **Audio-based classification** using MFCC and spectral features with traditional ML algorithms
+- **Audio-based classification** using Convolutional Neural Networks (CNN)
+- **Text-based classification** using Gated Recurrent Unit (GRU) networks on transcribed speech
+
+---
+
+## 🎯 Key Features
+
+- 🎵 **Audio Extraction** - Extract audio from YouTube videos using pytube
+- 🔊 **Audio Segmentation** - Intelligently segment long audio files into manageable chunks
+- 📊 **Feature Extraction** - Extract advanced audio features (MFCC, spectral properties, chroma)
+- 🤖 **Multiple ML Models** - KNN, SVM, Random Forest, Logistic Regression
+- 🧠 **Deep Learning Models** - CNN and GRU architectures
+- 🏷️ **Multi-label Classification** - Religious, Political, Personal hate speech + Neutral
+- 📝 **Bengali NLP** - Specialized text preprocessing for Bengali language
+- 🔄 **End-to-end Pipeline** - From raw audio to classification results
+
+---
+
+## 🏗️ Project Architecture
+
+### Two-Pronged Approach:
+Bengali Audio Input ├─→ Audio-Based Classification (Approach 1) │ ├─ Feature Extraction (MFCC, Spectral, Chroma) │ ├─ Machine Learning Models (KNN, SVM, RF, LR) │ └─ CNN Deep Learning Model │ └─→ Text-Based Classification (Approach 2) ├─ Speech-to-Text Transcription ├─ Bengali Text Preprocessing └─ GRU Multi-label Classification
+
