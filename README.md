@@ -40,5 +40,13 @@ The project implements multiple machine learning and deep learning approaches:
 ## 🏗️ Project Architecture
 
 ### Two-Pronged Approach:
-```Bengali Audio Input ├─→ Audio-Based Classification (Approach 1) │ ├─ Feature Extraction (MFCC, Spectral, Chroma) │ ├─ Machine Learning Models (KNN, SVM, RF, LR) │ └─ CNN Deep Learning Model │ └─→ Text-Based Classification (Approach 2) ├─ Speech-to-Text Transcription ├─ Bengali Text Preprocessing └─ GRU Multi-label Classification ```
 
+**Approach 1: Audio-Based Classification**
+- Feature Extraction (MFCC, Spectral, Chroma)
+- Machine Learning Models (KNN, SVM, RF, LR)
+- CNN Deep Learning Model
+
+**Approach 2: Text-Based Classification**
+- Speech-to-Text Transcription
+- Bengali Text Preprocessing
+- GRU Multi-label Classification
